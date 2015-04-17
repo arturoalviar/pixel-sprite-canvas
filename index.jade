@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")        
+        title Pixel Sprite Canvas
+        link(rel="stylesheet" href="css/style.css")
+    body            
+        .controls.section.group
+
+            h3.sub-title Main controls
+            
+            .col.col-12
+                label Grid Size
+                select#pixel-dropdown
+                    option(value="8") 8
+                    option(value="16") 16
+                    option(value="32") 32
+            .col.col-12
+                label Choose Pixel Color
+                select(name="color-dropdown")#color-dropdown
+                    
+            .col.col-12
+                label Current Color
+                .current-color
+                p Value: <span class="current-color-val"></span>
+            
+            .col.col-12
+                label Press 'E' or check to toggle Erase mode
+                input(type="checkbox" name="Erase Mode")#erase
+                
+            .col.col-12
+                button.btn#fill Fill Canvas
+                button.btn#clear Clear Canvas
+                
+            .col.col-12
+                p &copy; Arturo Alviar 2015.
+                p <a class="body-links" href="https://github.com/arturoalviar/pixel-sprite-canvas">See code at Github</a>
+                
+        .wrapper        
+            header.container-wide
+                h1.main-title Pixel Sprite Canvas
+                h3.sub-title Make your own 8-bit style
+            .container.canvas-container
+    
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
+    script(src="js/pixel-canvas.js")    

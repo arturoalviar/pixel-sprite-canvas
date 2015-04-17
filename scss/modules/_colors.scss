@@ -1,0 +1,63 @@
+//Material Design Colors
+$material-red:          #F44336;
+$material-pink:         #E91E63;
+$material-pink-300:     #F06292;
+$material-purple:       #9C27B0;
+$material-deep-purple:  #673AB7;
+$material-indigo:       #3F51B5;
+$material-blue:         #2196F3;
+$material-light-blue:   #03A9F4;
+$material-cyan:         #00BCD4;
+$material-teal:         #009688;
+$material-green:        #4CAF50;
+$material-green-700:    #388E3C;
+$material-light-green:  #8BC34A;
+$material-yellow:       #FFEB3B;
+$material-deep-orange:  #FF5722;
+$material-brown:        #795548;
+$material-blue-grey:    #607D8B;
+$material-blue-grey-50: #ECEFF1;
+$material-blue-grey-800:#37474F;
+$material-blue-grey-900:#263238;
+$material-grey:         #9E9E9E;
+$material-grey-800:     #424242;
+//Flat UI Designmodo colors
+//light
+$turquoise:             #1ABC9C;
+$flat-green:            #2ECC71;
+$flat-blue:             #3498DB;
+$flat-purple:           #9B59B6;
+$flat-navy:             #34495E;
+$flat-yellow:           #F1C40F;
+$carrot:                #E67E22;
+$flat-red:              #E74C3C;
+$clouds:                #ECF0F1;
+$concrete:              #95A5A6;
+//dark
+$turquoise-dark:        #16A085;
+$flat-green-dark:       #27AE60;
+$flat-blue-dark:        #2980B9;
+$flat-purple-dark:      #8E44AD;
+$flat-navy-dark:        #2C3E50;
+$orange:                #F39C12;
+$pumpkin:               #D35400;
+$flat-red-dark:         #C0392B;
+$sliver:                #BDC3C7;
+//Other colors
+$black:                 #212121;
+$white:                 #FAFAFA;
+
+
+$nice-purple:#4A4860;
+$nice-pink: #DBA5C2;;
+
+$nice-grey:               #33373a;
+$nice-tur:              #248164;
+
+/*SASS color vars*/
+$main-color: $nice-grey;
+$second-color: $flat-red;
+$third-color: lighten($main-color, 10%);
+$fourth-color: #606491;
+
+$main-text: $material-blue-grey-800;
